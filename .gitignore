@@ -1,0 +1,4 @@
+tests/node_modules/
+tests/package-lock.json
+docs/superpowers/specs/~$*
+docs/superpowers/specs/*.docx

@@ -1,0 +1,14 @@
+{
+  "name": "mechanisms-dashboard-tests",
+  "private": true,
+  "scripts": {
+    "test": "jest --testPathPattern=tests/"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
