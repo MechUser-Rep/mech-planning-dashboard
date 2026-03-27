@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mechanism Planning Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- CDN dependencies -->
+  <script src="https://alcdn.msauth.net/browser/3.27.0/js/msal-browser.min.js"></script>
+  <script src="https://unpkg.com/vue@3.4.0/dist/vue.global.prod.js"></script>
+
+  <!-- App scripts (order matters) -->
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
+  <script src="graph.js"></script>
+  <script src="data.js"></script>
+  <script src="calculations.js"></script>
+  <script src="components/WarningsPanel.js"></script>
+  <script src="components/PlanningGrid.js"></script>
+  <script src="components/SuggestedOrders.js"></script>
+  <script src="app.js"></script>
+
+  <script>
+    Vue.createApp(App).mount('#app');
+  </script>
+</body>
+</html>
