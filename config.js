@@ -3,7 +3,7 @@
 const CONFIG = {
   clientId:  'YOUR_CLIENT_ID',   // TODO: fill in after IT registers Azure AD app
   tenantId:  'YOUR_TENANT_ID',   // TODO: fill in after IT registers Azure AD app
-  redirectUri: 'http://localhost:8000',
+  redirectUri: 'https://nice-mushroom-0adbd2c03.1.azurestaticapps.net',
   scopes: ['Files.Read.All'],
   sharePointHostname: 'reposefurniturelimited.sharepoint.com',
   sitePath: '/sites/ReposeFurniture-PlanningRepose',
